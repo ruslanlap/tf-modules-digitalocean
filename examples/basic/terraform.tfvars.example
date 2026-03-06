@@ -1,0 +1,22 @@
+# Copy this file to terraform.tfvars and fill in your values
+# cp terraform.tfvars.example terraform.tfvars
+
+do_token             = "your-digitalocean-api-token"
+instance_name        = "my-secure-instance"
+region               = "fra1"
+size                 = "s-1vcpu-2gb-70gb-intel"
+image                = "ubuntu-24-04-x64"
+admin_user           = "do"
+ssh_key_name         = "my-do-key"
+auto_detect_runner_ip = true
+ssh_source_addresses = []
+
+team_members = {}
+
+# Example:
+# team_members = {
+#   "alice" = {
+#     public_key = "ssh-ed25519 AAAA..."
+#     source_addresses = ["203.0.113.10/32"]
+#   }
+# }
