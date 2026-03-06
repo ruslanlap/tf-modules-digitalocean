@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # tf-modules-digitalocean
-=======
-# terraformvps
 
 Reusable Terraform module for provisioning a hardened DigitalOcean VPS.
 
